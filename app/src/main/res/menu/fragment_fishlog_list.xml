@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2017  Carl Berberich -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/new_fishlog"
+        android:title="@string/new_entry"/>
+    <item
+        android:id="@+id/show_view"
+        android:title="@string/show_view"
+        />
+    <item
+        android:id="@+id/show_subtitle"
+        android:title="@string/show_subtitle"
+        />
+    <item android:id="@+id/navigation" android:title="Navigation - GoTo - using Google MAP" />
+    <item android:id="@+id/sort_search" android:title="Sort by:Search for the Stream Name"/>
+    <item android:id="@+id/sort_search_qsf" android:title="Sort by:Search in QSF Data"/>
+    <item android:id="@+id/sort_search_notes" android:title="Sort by:Search in Notes Data"/>
+</menu>

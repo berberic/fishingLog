@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2017  Carl Berberich -->
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <android.support.constraint.ConstraintLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+
+    <TextView
+        android:id="@+id/intro_title"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:text="@string/fishlog_intro1"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"/>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="330dp"
+            android:layout_height="434dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="36dp"
+            android:layout_marginRight="16dp"
+            android:text="@string/fishlog_intro"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            app:layout_constraintHorizontal_bias="0.542"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_constraintLeft_creator="1"
+            tools:layout_constraintRight_creator="1"
+            tools:layout_constraintTop_creator="1" />
+
+
+        <Button
+            android:id="@+id/start_button"
+            android:layout_width="130dp"
+            android:layout_height="39dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="488dp"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/button_states"
+            android:text="@string/fishlog_start"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_constraintLeft_creator="1"
+            tools:layout_constraintRight_creator="1"
+            tools:layout_constraintTop_creator="1" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="540dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:text="@string/acknowledge"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="340dp"
+            android:layout_height="140dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="580dp"
+            android:layout_marginRight="8dp"
+            android:text="@string/fishlog_acknowledge"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            app:layout_constraintHorizontal_bias="0.616"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>

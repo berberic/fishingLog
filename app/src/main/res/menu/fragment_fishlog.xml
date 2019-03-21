@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2017  Carl Berberich -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="1.Select Stream Name from current data" android:id="@+id/title_list"></item>
+    <item android:title="2.Select Loc Description from current data" android:id="@+id/loc_list"></item>
+ <!--   <item android:title="3.Location Description: Add Map" android:id="@+id/mapit"></item> -->
+
+    <item
+        android:id="@+id/compass_fishlog_action"
+        android:title="3.View MAP"
+        />
+    <item
+    android:id="@+id/delete_fishlog_action"
+    android:icon="@android:drawable/ic_menu_delete"
+    android:title="@string/delete_fishlog"
+    />
+
+</menu>

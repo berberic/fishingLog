@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/intro" android:title="Intro"/>
+    <item android:id="@+id/imp_exp"   android:title="Import/Export"/>
+    <item android:id="@+id/list" android:title="List Page"/>
+    <item android:id="@+id/map_view" android:title="Map View - List Page" />
+    <item android:id="@+id/navigation_map" android:title="Navigation - List page"/>
+    <item android:id="@+id/details" android:title="Details Page"/>
+    <item android:id="@+id/view_detail_map" android:title="View MAP - Details Page"/>
+    <item android:id="@+id/loc_desc_map" android:title="Loc Desc - Details Page"/>
+    <item android:id="@+id/notes_map" android:title="Notes - Details Page"/>
+    <item android:id="@+id/map_points" android:title="How to get Map points on Google maps"/>
+    <item android:id="@+id/connectivity" android:title="Connectivity for Mapping"/>
+</menu>

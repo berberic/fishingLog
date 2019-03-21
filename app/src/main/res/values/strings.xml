@@ -1,0 +1,418 @@
+<resources>
+<string name="app_name">Fly-Fish Log</string>
+    <string name="menu_app_name">Fly-Fish Log</string>
+
+        <!-- Copyright (C) 2017  Carl Berberich -->
+
+        <string name="app_name_beta">FishingLogBeta</string>
+        <string name="add_coffee">Encryption Key</string>
+        <string name="fishlog_title_label">Spring Fishing</string>
+        <string name="fishlog_title_hint">Enter Stream Name</string>
+        <string name="partners_title_hint">Latitude - Longitude</string>
+        <string name="qsf_title_hint">Qty/Species/Fly</string>
+        <string name="location_desc_hint">Location Description (access point)</string>
+        <string name="fishlog_details_label">Details</string>
+    <string name="select_for_export">Select for limited Exporting to file</string>
+
+    <string name="select_export_label">Select for Export</string>
+    <string name="select_send_Db_report">EXPORT limited Selection\n &amp; Save/Send Database as CSV file </string>
+        <string name="hide_loc_label">Send Location Description and Hatch Notes in Report</string>
+        <string name="hide_photo_label">Send Photo in Report</string>
+        <string name="hide_db_label">Send Db in Fishlog Report</string>
+        <string name="notes_hint">Hatch Notes:</string>
+        <string name="date_picker_title">Date of Fishlog:</string>
+        <string name="pause">Pause Location Updates</string>
+        <string name="resume">Resume Location Updates</string>
+        <string name="new_entry">Create NEW Log Entry</string>
+        <string name="show_view">View MAP of List</string>
+        <string name="show_subtitle">Count Entry Logs</string>
+        <string name="hide_subtitle">Hide Count</string>
+        <string name="subtitle_format">%1$d entries</string>
+        <string name="water_temp_hint">Water Temp and Weather</string>
+        <string name="delete_fishlog">4.Delete this Fishlog Entry</string>
+        <string name="fishlog_receipient_text">Choose Receipient</string>
+        <string name="fishlog_report_text">Send Fly-Fishlog Report</string>
+        <string name="fishlog_report">Stream:%1$s\n The Fly-Fishlog was created on: \n%2$s. %3$s %4$s\n</string>
+        <string name="fishlog_report_hidden">The Fly-Fishlog location is hidden </string>
+        <string name="fishlog_report_not_hidden">The Fly -Fshlog location is not hidden</string>
+        <string name="fishlog_report_no_receipient">there is no receipient</string>
+        <string name="fishlog_report_receipient">the receipient is %s</string>
+        <string name="fishlog_report_subject">Fly-FishLog Report</string>
+        <string name="fishlog_Db_report">This is the complete Db</string>
+        <string name="fishlog_database_subject">Fly-FishLog Database Report</string>
+        <string name="send_report">Send Fly-Fishlog report via</string>
+        <string name="fishlog_table">Fly-Fishlog table</string>
+        <string name="fishlog_intro1">INTRO</string>
+        <string name="fishlog_purpose">Help Page</string>
+        <string name="send_Db_report">EXPORT All\n &amp; Save/Send Database as CSV file </string>
+        <string name="import_Db_report">Upload Fly-FishLogBackup.csv</string>
+    <string name="title_activity_maps">Fly-FishLog</string>
+    <string name="normal_map">MAP_TYPE_NORMAL</string>
+    <string name="hybrid_map">MAP_TYPE_HYBRID</string>
+    <string name="satellite_map">MAP_TYPE_SATELLITE</string>
+    <string name="terrain_map">MAP_TYPE_TERRAIN</string>
+    <string name="fishlog_intro">
+        This application is for logging of technical fly-fishing trips with Google mapping support of the
+        stream access points and locations on-stream. Users will be able to predict future insect
+        hatches and fish behavior year to year by logging their current activities. The purpose is
+        to improve fishing success by knowing what to expect during the year and where to fish from
+        prior experience. \n\n
+
+    By logging your fishing experience, it should give you the advanced knowledge for future fishing
+    trips. Not every hatch occurs on every stream, nor does a hatch on a stream occur everywhere on a
+        stream, nor does a hatch occur at exactly the same day each year. But history can repeat
+        itself for insect behavior. By logging precise location information for specific hatches it can
+        enhance your future fishing success rate. Building an information base is key to improving
+        your flyfishing.\n\nObviously this application can be used for far more things than just fly fishing.
+        \n\nCopyright © 2019 Driftless Software Solutions,  Version 1.27</string>
+
+        <string name="importexport">
+            <b><i>MORE INFO</i></b> \n
+        1. WARNING:Keep your data secure and use encryption!  Create an Encryption Key using a word
+        or phrase.  The same word/phrase used to Export (creating the file) must be used to Import
+            and decrypt the same file into the database. If no Key is used, then the file will not be
+        encrypted/decrypted and will be readable text. You do not have enrypt a file to use the
+            import/export feature. This application uses 128-bit AES encryption. If you encrypt, be
+            sure to record the key!!!\n\n
+        2. By clicking the \'EXPORT All &amp; Save/Send Database as CSV file\' button (above),
+        the database of logs will dump into a CSV file and can be emailed as an attachment to anyone
+        you choose or saved to your My Drive, or sent via other applications. Most Android devices
+        will require you to change your permissions to allow this to happen. Most importantly, you can
+        use this feature to backup your data to yourself. \n\n
+        3. By clicking the \'EXPORT Selection &amp; Save/Send Database as CSV file\' button (above),
+        the database of only the Selected logs will dump into a CSV file and can be emailed as an attachment to anyone
+        you choose or saved to your My Drive, or sent via other applications. Most Android devices
+        will require you to change your permissions to allow this to happen. You can use this feature
+        to send selected logs to another. \n\n
+
+        4. IMPORT CSV button.\nWARNING:This feature is for advanced users. You could delete all your Log data.\n
+        By clicking on the \'IMPORT CSV\' button (above), you will be directly uploading a file of
+        Log data into the database from the Downloads directory.  Prior to IMPORT, you  must first download
+            the file to your device.  Email appended files will download to the Download folder.
+        To IMPORT, you must first select a RadioButton to Overwrite or to Append this data. Overwriting will drop
+        (delete) all your current data from the database and then insert new data from this file.
+        Appending will add this data to your existing database.\n\n
+        To choose a file to import, click on the IMPORT Button, then select a CSV file from the Dialog
+        screen and click Ok. This reads files that are currently in the Download folder. This import
+            file must be a CSV file with the same type of data as in the
+        EXPORT file. One way to generate an import CSV file that you can use, is by first using the
+        EXPORT Button function to generate this file, and then emailing yourself the file. By
+        opening this email on your device and saving the CSV attachment to the Downloads Directory,
+        that file is now accessible (selectable) for importing.\n\n
+        For Overwriting, it is extremely recommended to test the CSV data first by appending a sample
+        of data prior to overwriting. Once data is deleted from the database, there is no recovery.
+        If there is an error in the CSV data, this will cause major issues with your Database. Photos
+        are not uploadable.\n\n
+
+        5. If the download of the files is not working.  If you are unable to download the CSV file,
+            it could be due to your email app has used up all available memory.  Sometimes, it will look
+            like your file is stuck in the email app\'s Outbox.  To fix, you will need to clear out the
+            memory for your email app on your device. For example, with GMail, you need to go to
+            Settings -> Apps -> GMail -> Storage and click on CLEAR DATA.  Alternately, you can reboot
+            your device.\n\n
+
+        6. VIEW and DELETE Files (from menu).  This menu button will show all CSV files saved in the
+        Download Storage folder. Selecting a file and choosing OK, will delete the file from Storage.
+        \n\n</string>
+
+    <string name="help_intro"><b>Select from the Menu on this page for a Help Item. There are 4 text pages and
+    5 map pages plus advice on Cell Phone Connectivity.</b></string>
+
+    <string name="purpose_new">Overview:This application is for the storage of fishing information.
+    There are five pages in this application with the addition of five Google Maps routing/navigation
+        pages:\n</string>
+
+    <string name="intro">The <b>Intro page </b> (previous page) describes purpose and usage, and is the starting
+        page to Help, Import/Export, and to the Log.</string>
+    <string name="help"> <b>Help page </b> (this page) describes how the Logging application works and explains
+        features.</string>
+    <string name="import_export"><b>Import/Export Page</b> imports and/or exports your data via email. Delete
+        is also supported. The following info is also found on the Import/Export page.  You can only
+        import from the Download folder.</string>
+    <string name="list"><b>List Page</b> shows a list of all Log entries with sorting abilities. Links to Detail
+        Log page and Mapping. The Start button on the Intro page links to the List Page.</string>
+    <string name="map_view"><b>\'View Map of List\'</b> (from List Page menu) shows a map with the
+        current location and all GPS marked Entries in the current list (if you have logged GPS location data).</string>
+    <string name="navigation"><b>Navigation - GoTo - using Google MAP\'</b> (from List Page Menu) allows the user
+        to select from a list of logged locations and opens Google Maps to route you there. Offline Google
+        Mapping is supported.</string>
+    <string name="details"><b>Details Page</b> is the log for a particular entry. Tapping on any List page
+        log entry takes you to the Details page of that entry.  Swipping left or right on a Details page, takes
+        you to the next listed entry.</string>
+    <string name="view"><b>View MAP - Details Page Map</b> is \'#3 View Map\' menu item of Details Page show map of logged area
+        (if you have GPS location data).</string>
+    <string name="loc_desc"><b>Location Description Map</b> is \'LOC LAT/LNG\' map page button.  This can generate
+        the Location Field info (if service is available), accessed from the \'LOC LAT/LNG\' button
+        from the Detail\'s page. This allows selection of a location from the shown map. </string>
+    <string name="notes"><b>\'NOTES LAT/LNG\'</b> button page for the Notes field (if service is available).
+        accessed from the \'NOTES LAT/LNG\' button from the Detail\'s page. This allows selection of location
+        from the shown map.
+    to name the location and save the LAT/LNG to the log</string>
+    <string name="map_points"><b>How do you get Map points in your log and on your Google Maps?</b> </string>
+    <string name="connectivity"><b>Cell Phone Connectivity </b> - Cell towers, wireless, and GPS. Do you need it?</string>
+
+    <string name="intro2">
+        <b><i>MORE INFO</i></b> \n
+        1. Intro Page: From this page you can go to the Help Page or the IMPORT/EXPORT Page from the menu.\n\n
+        2. Intro Page: From this page you can go to the List Page using the Start button.</string>
+
+    <string name="list2">
+        <b><i>MORE INFO</i></b> \n
+        1. List Page:In this page you can add (create) new Log entries(from menu) or just view all of the previously added
+        streams Log entries. You MUST add Log entries first, before viewing them. There will be no
+        entries viewable until you add them. You can also view a map of all of your entries with
+        routing navigation by Google Maps.(from menu)\n\n
+        2. List Page:The purpose of the List Page is to show a list of Log Entries.  They are normally
+        listed in Chronological descending order when no Radio buttons are checked.  The radio button \'Loc\'
+        signifies all entries by their title in alphabetical order. The radio buttons Spring, Summer,
+        Fall and Winter, reorganizes the list by their
+        season in monthly ascending order, regardless of year. This allows for later comparisons of
+        Log entries. Going back to the Intro page will clear all radio buttons.\n\n
+
+        3. List Page: The \'Selected for Export\' Checkbox shows currently selected log entries that
+        will be downloaded for the \'EXPORT limited Selection &amp; Save/Send Database as CSV file\'
+        button (on the IMPORT/EXPORT page).  This feature is set by clicking on \'Select for limited
+        Exporting to file\' Checkbox on the corresponding Log Detail page.\n\n
+
+        4. List Page:To create a new entry you click on the \'Create NEW Log Entry\' menu button in the upper menu field.
+        Clicking on the \'Create NEW Log Entry\' menu button will send you to the Details page, where you write the new
+        data. You can also click the \'COUNT Entry Logs\' to view the total number of current entries.\n\n
+
+        5. List Page: The \'View MAP of List\' menu shows locations of all the currently listed entries that
+        have GPS data in the Location Field.  This Map page centers on your current location with Markers showing all
+        entries Titles that have LAT/LNG for their Location Description (access point) data. Clicking on a
+        Map marker enables the Google Map GO-TO routing navigation function from your current
+        location.\n\n
+
+        6. List Page: The \'Navigation - GoTo - using Google MAP\' menu item allows the user to select from the
+        created list of Stream Name Locations (access point with LAT/LNG info) and then opens Google
+        Maps to create a route to there.  If there is more than 1 Location Description for a \'Stream
+        Name\', the user will be then given the choices. A user can also create a \'Home\' Name with
+        a valid LAT/LNG info (by creating a Home log entry with LAT/LNG info), and this will show as the #1 Choice.
+        Google MAPs will use Offline Google Maps by accessing your current Google Offline maps if
+        you are offline and show this location. This provides navigation (routing) from your current location
+        to this point.  It is required for you to prebuild your Google Offline maps to use this offline feature.\n\n
+
+        7. List Page: The \'Sort by:Search for the Stream Name\' menu item allows the user to locate a specific
+        listed entry or list of entries based upon the starting Stream Name letters.\n\n
+
+        8. List Page: The \'Sort by:Search in QSF Data\' menu item allows the user to locate a specific
+        listed entry or list of log entries based upon a selected input.\n\n
+
+        9. List Page: The \'Sort by:Search in Notes Data\' menu item allows the user to locate a specific
+        listed entry or list of log entries based upon a selected input.\n\n
+
+        10. List Page:To open any current Details Page of an existing List entry, click(tap) on the
+        particular entry on the List page to open it\'s Details page. All information on this
+        Details page is directly editable.\n\n</string>
+
+    <string name="map_view2">
+        <b><i>MORE INFO</i></b> \n
+        \'View MAP of List\' from the List Page menu shows locations of all the
+        currently listed entries that have GPS data in the Location Field.  This Map page centers on
+        your current location with Markers showing all
+        entries Titles that have LAT/LNG for their Location Description (access point) data. Clicking on a
+        Map marker enables the Google Map GO-TO routing navigation function from your current
+        location.\n\n</string>
+
+    <string name="navigation2">
+        <b><i>MORE INFO</i></b> \n
+        \'Navigation - GoTo - using Google MAP\' from the List Page menu item allows the user to select from the
+        created list of Stream Name Locations (access point with LAT/LNG info) and then opens Google
+        Maps to create a route to there.  If there is more than 1 Location Description for a \'Stream
+        Name\', the user will be then given the choices. A user can also create a \'Home\' Name with
+        a valid LAT/LNG info (by creating a Home log entry with LAT/LNG info), and this will show as the #1 Choice.
+        Google MAPs will use Offline Google Maps by accessing your current Google Offline maps if
+        you are offline and show this location. This provides navigation (routing) from your current location
+        to this point.  It is required for you to prebuild your Google Offline maps to use this offline feature.\n\n</string>
+
+    <string name="details2">
+        <b><i>MORE INFO</i></b> \n
+        1. Details Page:When creating a new Log entry from the List Page (Create NEW Log Entry menu button), the app
+        will send you to a new Details Page which shows Hint information in each editable field.
+        To save information in the Details page, data is saved after leaving that data field. Text
+        can be added via the software keyboard or using the microphone (if enabled) located on the
+        software keyboard\n\n
+
+        2. Details Page Menu: The menu has 4 items.\n
+        #1.\'Add Stream Name from current data\'\n
+        #2.\'Add Loc Description from current data\'\n
+        #3.\'View MAP\'\n
+        #4.\'Delete this Fishlog Entry\'.\n
+        The #1 and #2 menu items allow you to select data from a list of current Names or a list of current Locations.\n
+        #3\'View MAP\' shows the log location in a Google Map.\n
+        #4 \'Delete Log\', will delete the current log after confirmation.\n\n
+
+        3. The #3\'View MAP\' menu selection (top of Details Page screen) opens a Google Map view centering on
+        the LAT/LNG data found in \'Location Description\' Field. This centering point is displayed
+        with a red marker. \nLAT/LNG data must be present or map will not be created and viewed. This
+        GPS data can be gotten using the ADD LAT/LNG button or typed in with correct format as the
+        GPS button provides. \nThe Map view can be zoomed into or out using the map +- buttons or your fingers.
+        The Map also shows your current position with a blue circle or gotten by using the My Location
+        Button(right corner).  \nYou can also move (scroll) the viewpoint of the map.  The compass feature
+        is also enabled, allowing rotation of the map view.  \nAdditional Google Map Marks are added
+        in the map for all Lat/Lng data found in \'Notes\'(also gotten using the GPS button
+        for that field), signified by a blue marker. All marker names are the text directly before their
+        LAT/LNG data from the Notes Field. Touching a marker on the map displays their marker name.  Touching a marker
+        also opens the Google Maps mobile app controls in the lower right of the screen. This enables
+        standard routing navigation to this marker from your current location. \nHaving a data connection,
+        or wireless is necessary to view map information. This data is not available offline. \nThere is a
+        menu at the top of the page allowing alternate views of the map page including a Satellite view.\n\n
+
+        4. Details Page: You can use the current date/time as shown, or click the date field
+        Button to select a different date.\n\n
+        5. Details Page: The camera button (if available) on the Details Page takes a picture.
+        After taking the picture, the picture is save to the application. Taking another picture overwrites
+        the original.\n\n
+        6. Details Page: Clicking on the picture\'s thumbnail image enlarges for enhanced viewing. These photos
+        are private and cannot be shared. Use you regular camera application to take public photos.\n\n
+
+        7. Details Page: The SAVE PHOTO Button will save the picture to the System\'s Photos\' Albums Directory,
+        under Pictures\' folder.\n\n
+
+        8. Details Page:The text field \'Location Description\' should be a written description about the
+        access location. Typically this is where you accessed the stream and the direction of travel
+        (upstream/downstream). LAT/LNG can be added. The Google Map marker name will be the text in
+        the \'Location Description\' field. Use \'Create new Location Desc using Map\' from page menu
+        to create this, or use \'Search for existing Location Descriptions\' to add exisiting loaction
+        data.\n\n
+
+        9. Details Page:\'LOC LAT/LNG\' button opens a Map to select a GPS Access Location. This is
+        a Google MAP with crosshairs in the center of the screen.  This is the selected Lat/Lng. By
+        moving the map (or using this current position) and selecting
+        \'Add New Mark\' from this page\'s menu, you are selecting this Lat/Lng location to define your
+        Access Location. The app will ask for a name for this access location. You can also select
+        NORMAL, HYBRID, SATELLITE or TERRAIN menu items for viewing of the map prior to selecting \'Add New Mark\'.
+        If wifi is not available Satellite and HYBRID Mapping displays is discouraged. Normal Mapping has the
+        least data requirements, and quickest display to view.  If there is no WIFI or Cell Data connection,
+        the current location GPS (LAT/LNG) can be saved, without showing a map.  If you have offline mapping,
+        sometimes a map can be used.\n
+
+        10. Details Page: Water Temp should be the current temperature where you are fishing. You could also add
+        weather information.\n\n
+        11. Details Page: Notes field should be a description of special things that you saw during your fishing.
+        Including who you went fishing with, names of landowners, and telephone numbers.  All text
+        written before a GPS LAT\LNG location will be used as that Marker name on Google Maps. Except,
+        any text enclosed within parentheses will not be included in location Marker names. \n\n
+
+        12. Details Page: The \'NOTES LAT/LNG\' button to the right of the \'Notes\' field, will add latitude
+        and longitude info into the \'Notes\' field. This could require you to change your permissions
+        to allow use your GPS on your phone. The app will ask for a name for this location. This will
+        be the marker name for the latitude and longitude for your on-site location. Sometimes buildings or valley
+        bottoms have blocked GPS satellite signals.
+        This uses the same process as the \'LOC LAT/LNG\' from the Location Field. If there is no WIFI or Cell Data connection,
+        the current GPS location (LAT/LNG) can be saved, without showing a map. If you have offline mapping,
+        sometimes a map can be used.\n\n
+
+        13. Details Page: If you select the \'Send Location Description and Notes in Report\' checkbox on the
+        Details page, the \'Location Description\' field and \'Notes\' data will be in a
+        Log Report, otherwise it is not included.\n\n
+
+        14. Details Page: If you select the \'Send Photo in Report\' checkbox on the Details page, the photo will be in a
+        Log Report, otherwise it is not included. On some devices, there is a limited amount of email
+        storage cache.  If this is exceeded the device will not email until this the device is rebooted,
+        or storage cache is cleared.\n\n
+
+        15. Details Page: The \'Send FishLog Report\' Button on the Details Page will create and send an editable Log
+        Report to any of your contacts that you choose via email or other applications (Google Keep,
+        Google Drive, Message, etc). \n\n
+
+        16. Details Page: The Checkbox for \'Select for limited Exporting to file\' is used by the IMPORT/EXPORT page.
+        The Selected log entries will be the only items downloaded for the \'EXPORT limited Selection
+        &amp; Save/Send Database as CSV file\'. This setting is also shown on the List Page, but is
+        controlled on this page\n\n
+
+        17. Details Page: You can directly view additional Details Pages by swiping on the page left or
+        right (chronologically up or down in the default list).\n\n
+
+        18. WARNING:To display maps, either a WIFI connection or Cell connection is required.
+        Without cell data connection or a wifi connection maps could appear blank, only showing marks.
+        Complete maps will be shown when you have a connection. This data is normally cached and once
+        viewed can possibly be used for offline usage (until cache data is cleared).\n\n
+
+        19. This application and it\'s data can be migrated to a new device using appropriate migration
+        software. Check prior to wiping phone. It is recommended to save all log data by choosing to
+        use the Import/Export feature, \'Save/Send Database as CSV file\' as a backup or prior to an update.\n\n
+    </string>
+
+    <string name="view2">
+
+        <b><i>MORE INFO</i></b> \n
+        The #3\'View MAP\' from the Detail\'s menu button (top of Details Page screen)
+        opens a Google Map view centering on
+        the LAT/LNG data found in \'Location Description\' Field. This centering point is displayed
+        with a red marker. \nLAT/LNG data must be present or map will not be created and viewed. This
+        GPS data can be gotten using the ADD LAT/LNG button or typed in with correct format as the
+        GPS button provides. \nThe Map view can be zoomed into or out using the map +- buttons or your fingers.
+        \nThe Map also shows your current position with a blue circle or gotten by using the My Location
+        Button(right corner).  You can also move (scroll) the viewpoint of the map.  The compass feature
+        is also enabled, allowing rotation of the map view.  \nAdditional Google Map Marks are added
+        in the map for all Lat/Lng data found in \'Notes\'(also gotten using the GPS button
+        for that field), signified by a blue marker. \nAll marker names are the text directly before their
+        LAT/LNG data from the Notes Field. Touching a marker on the map displays their marker name.  Touching a marker
+        also opens the Google Maps mobile app controls in the lower right of the screen. This enables
+        standard routing navigation to this marker from your current location. \nHaving a data connection,
+        or wireless is necessary to view map information. This data is not available offline.\n There is a
+        menu at the top of the page allowing alternate views of the map page including a Satellite view.\n\n</string>
+
+    <string name="loc_desc2">
+        <b><i>MORE INFO</i></b> \n
+        \'LOC LAT/LNG\' button from the Detail\'s page opens a Map to select a GPS Access Location.
+        If you have connectivity you will see a Google MAP with crosshairs in the center of the screen.  This center position
+        is the selected Lat/Lng.\n\n By moving the map (or using this current position) and selecting
+        \'Add New Mark\' to name this point from this page\'s menu, you are selecting this Lat/Lng location to define your
+        Access Location. \n\nYou can also select NORMAL, HYBRID, SATELLITE or TERRAIN menu items for
+        viewing of the map prior to selecting \'Add New Mark\'.\n\n
+        If wifi is not available Satellite and HYBRID Mapping displays is discouraged.\n\n Normal Mapping has the
+        least data requirements, and quickest display to view.\n\n
+        If there is no WIFI or Cell Data connection, your current location GPS (LAT/LNG) can be saved,
+        without showing a map.  If you have offline mapping,
+        sometimes a map can be used.\n\n Only one mapping position is allowed in this field.  Selecting a
+        second position overwites the original.\n\n</string>
+
+    <string name="notes2">
+        <b><i>MORE INFO</i></b> \n
+        \'NOTES LAT/LNG\' button from the Detail\'s page opens a Map to select a
+        GPS Access Location. If you have connectivity you will see a Google MAP with crosshairs in
+        the center of the screen.  This is the selected Lat/Lng. By
+        moving the map (or using this current position) and selecting \'Add New Mark\' to name this point from this page\'s menu,
+        you are selecting this Lat/Lng location to define your Notes Location. \n\n
+        You can also select NORMAL, HYBRID, SATELLITE or TERRAIN menu items for viewing of the map
+        prior to selecting \'Add New Mark\'.
+        If wifi is not available Satellite and HYBRID Mapping displays is discouraged. Normal Mapping has the
+        least data requirements, and quickest display to view.  If there is no WIFI or Cell Data connection,
+        your current location GPS (LAT/LNG) can be saved, without showing a map.  If you have offline mapping,
+        sometimes a map can be used. You can have any amount of these locations in your Notes.\n\n</string>
+
+    <string name="map_points2">To get your Location Access Mapping points, you use the LOC LAT/LNG button
+        and the HELP instructions for Loc Desc - Detail page instructions. \n\n To get your Notes LAT/LNG
+        Mapping points you use the Note\s LAT/LNG button and HELP instructions
+    for it. </string>
+    <string name="connectivity2">
+        <b><i>MORE INFO</i></b> \n
+          This app uses cellphone and wireless connectivity with it mapping abilities.  But it is not required
+    to have cell tower connectivity.  It is required to have GPS reception. Which is found mostly universal outside.
+        Having wireless connectivity allows the cellphone to have the fast data transfers.  High speed data transfers allows high
+    resolution for satellite mapping.  Cell tower connectivity allows the next highest form of data transfer.
+    This is not 100% required.  Google Maps provides offline mapping.  This is available directly from the Google Map
+    app\'s menu.  You pre-download your map area prior to using it.  This works well for navigation, but
+    not as well for Fly-Fish Log map viewing.  However, With no cell tower connectivity, if you have previewed
+        the map, the data is now stored in current memory and is still available.\n\n
+    This app being on an android phone can also work without a cell phone connection contract, by using a wireless
+    connection.  This can be by connecting to a home wireless network, a commercial wireless network or another cellphone\'s
+    wireless hotspot.\n\n
+      </string>
+
+
+    <string name="fishlog_start">Start</string>
+    <string name="acknowledge">Acknowledgements</string>
+    <string name="fishlog_acknowledge">Privacy Policy: At no time is any data collected from or
+        about the user. Import/Export and Emailing or storage of data is at the sole discretion and responsibility of
+        the user.\n\nI want to thank the Big Nerd Ranch group for their guidance,
+        inspiration, and expertise in Android programming. I hope I got this right. Also to Google Maps for
+        their amazing product, and to all the Fly-fisher people using this, \'Tight Lines\'.
+    </string>
+
+
+
+    </resources>
